@@ -1,0 +1,665 @@
+:root {
+  --index-color: #192f60;
+  --second-color: #eb2929;
+  --third-color: #8c96ab;
+}
+.indexColor {
+  color: var(--index-color);
+}
+.secondColor {
+  background-color: var(--second-color);
+  color: white;
+}
+.thirdColor {
+  color: var(--third-color);
+}
+.fourthColor {
+  color: #61b246;
+}
+.marBottom {
+  margin-bottom: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.margin-check {
+  display: inline-block;
+  position: relative;
+}
+.white {
+  color: white !important;
+}
+.widthMod {
+  width: 55vw !important;
+  height: 75vh;
+}
+.margin-check:after {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid var(--second-color);
+  width: 100%;
+  transform: translateX(-50%);
+  bottom: -17px;
+  left: 50%;
+}
+.header {
+  /* background: var(--second-color); */
+  height: 72px;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg__image {
+  /* height: 70vh;
+  background: linear-gradient(to bottom, rgba(104, 35, 35, 0), #250808);
+  background: url(../public/images/assets/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #fbfbfb;
+  mix-blend-mode: multiply;
+  overflow: hidden; */
+  /* background-color: red; */
+  height: 80vh;
+  background-image: url(../public/images/assets/bg1.png);
+  background-position: center;
+  background-size: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.header__text {
+  font-size: 3vw;
+}
+.logo {
+  width: 110px;
+  height: 110px;
+  color: var(--second-color);
+  font-size: 4.06rem;
+}
+.search__section {
+  color: #192f60;
+}
+.search__section-text {
+  /* padding: 3.3rem; */
+  color: #8c96ab;
+  font-size: 14px;
+}
+.box__section {
+  border: 1px solid white;
+  /* width: 30vw; */
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+}
+
+.box__heading {
+  color: #192f60;
+  font-size: 1.2rem;
+}
+
+.box__text {
+  font-size: 1.1rem;
+  color: #8c96ab;
+}
+.search__logo {
+  padding-top: 1.2rem;
+}
+
+/* ---------------------------------------------------------------- */
+/* for Navbar */
+/* ---------------------------------------------------------------- */
+
+.secondLogo {
+  color: var(--second-color);
+  font-size: 2.06rem;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-weight: bold;
+}
+/* ---------------------------------------------------------------- */
+/* for Filter */
+/* ---------------------------------------------------------------- */
+
+.filter {
+  width: 20vw;
+  height: 120vh !important;
+  border-radius: 1rem;
+}
+.test {
+  height: 150vh;
+}
+.image {
+  width: 180px;
+  height: 180px;
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+.box {
+  height: 50vh;
+  width: 55vw;
+  border-radius: 10px;
+}
+
+.hrline {
+  color: var(--third-color);
+  width: 45vw;
+  margin-left: 3rem;
+}
+
+.cuisine {
+  color: #636f88;
+  line-height: 30px;
+}
+.bakery {
+  line-height: 30px;
+}
+.btn-main {
+  margin-left: 150px;
+}
+.btn-clr {
+  color: var(--third-color);
+  border-color: var(--third-color);
+}
+.btnOnline :hover {
+  background-color: var(--second-color) !important;
+}
+
+.image-item {
+  width: 45%;
+  height: 22vh;
+}
+.quick-search-item {
+  width: 32%;
+  margin-bottom: 8px;
+}
+.suggestionImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+/* ---------------------------------------------------------------- */
+/* RestaurantOverview */
+/* ---------------------------------------------------------------- */
+
+.restOverviewImgContainer {
+  height: 70vh;
+  overflow: hidden;
+}
+.resOverviewImg {
+  height: 150%;
+  width: 100%;
+}
+.resOverviewBtn {
+  top: 80%;
+  right: 15%;
+  color: var(--index-color);
+  background-color: rgb(245, 222, 179, 0.411);
+}
+
+.marginContainer {
+  margin-left: 100px;
+}
+.marginSearch {
+  margin-left: 23rem;
+}
+.marginLeft {
+  margin-left: 17rem !important;
+}
+.btnOrder {
+  background-color: var(--second-color);
+  color: white;
+}
+.btnOrder:hover {
+  background-color: #e61515;
+  color: white;
+}
+.p-no {
+  color: #f67082;
+}
+
+.background-clr {
+  width: 100px;
+  height: 100px;
+  margin-top: 5.5rem;
+}
+.widthClass {
+  width: 70vw;
+}
+.btnAdd {
+  top: 83%;
+  right: 35%;
+  height: 30px;
+}
+.menu-img {
+  width: 9vw !important;
+  height: 16vh;
+}
+/* ---------------------------------------------------------------- */
+/* MEDIA QUERIES FOR MEDIUM DEVICES */
+/* ---------------------------------------------------------------- */
+@media only screen and (min-width: 865px) and (max-width: 991px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+    color: var(--second-color);
+    font-size: 2.06rem;
+  }
+  .secondLogo {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  .mainE {
+    display: none !important;
+  }
+
+  .login__div {
+    font-size: 1rem;
+  }
+  .image {
+    width: 120px;
+    height: 120px;
+  }
+  .btn-main {
+    margin-left: 30px;
+  }
+  .hrline {
+    width: 90vw;
+    margin-left: 1rem;
+  }
+  .quick-search-item {
+    width: auto;
+  }
+  .image-item {
+    width: 30vw;
+    height: 20vh;
+  }
+  .bg__image {
+    width: 98.3vw;
+    height: 80vh;
+    background-position-x: center;
+    background-position-y: initial;
+    background-size: 100%;
+  }
+  .heightLi {
+    height: 30vh !important;
+  }
+  .quick-search-item {
+    margin-left: 3rem;
+    width: 80% !important;
+    margin-bottom: 8px;
+  }
+  .header {
+    height: 90px !important;
+  }
+  .filter {
+    width: 82vw;
+    height: 130vh !important;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+  }
+  .searchResultFilterBox {
+    width: 83vw;
+    margin-left: 1.5rem;
+    height: 45vh;
+  }
+  .hrline {
+    width: 73vw;
+  }
+  .header__text {
+    font-size: 4vw;
+    margin-top: 3rem;
+  }
+  .resOverviewImg {
+    height: 100%;
+    width: 100%;
+  }
+  .marZero {
+    margin: 0 !important;
+  }
+  .marginLeft {
+    margin-left: 10rem !important;
+  }
+  .marginSearch {
+    margin-left: 10rem;
+  }
+  .box__section {
+    width: 40vw !important;
+    margin-left: 5px;
+    height: 25vh;
+  }
+  .box__section img {
+    width: 20vw;
+    height: 25vh;
+  }
+  .cuisine {
+    line-height: 30px;
+  }
+  .restOverviewImgContainer {
+    height: 60vh;
+    width: 83vw;
+  }
+  .resOverviewImg {
+    height: 100%;
+    width: 100%;
+  }
+  .marginContainer {
+    margin-left: 40px;
+  }
+  .resOverviewBtn {
+    top: 58%;
+    right: 10%;
+  }
+  .widthMod {
+    width: 120vw !important;
+    height: 70vh;
+  }
+  .orderDiv {
+    margin-left: rem;
+  }
+  .btnOrder {
+    margin-bottom: 1rem;
+    /* margin-left: 4rem !important; */
+  }
+  .testingZ {
+    position: absolute !important;
+    z-index: 100 !important;
+    width: 96%;
+  }
+  .ZIndex {
+    position: absolute !important;
+    z-index: 100 !important;
+    width: 90%;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* MEDIA QUERIES FOR MEDIUM DEVICES(509-864) */
+/* ---------------------------------------------------------------- */
+
+@media screen and (min-width: 509px) and (max-width: 864px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+    color: var(--second-color);
+    font-size: 2.06rem;
+  }
+  .secondLogo {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  .mainE {
+    display: none !important;
+  }
+
+  .login__div {
+    font-size: 1rem;
+  }
+  .image {
+    width: 120px;
+    height: 120px;
+  }
+  .btn-main {
+    margin-left: 30px;
+  }
+  .hrline {
+    width: 90vw;
+    margin-left: 1rem;
+  }
+  .quick-search-item {
+    width: auto;
+  }
+  .image-item {
+    width: 30vw;
+    height: 20vh;
+  }
+  .bg__image {
+    width: 97.5vw;
+    height: 80vh;
+    background-position-x: center;
+    background-position-y: initial;
+    background-size: 101%;
+  }
+  .heightLi {
+    height: 30vh !important;
+  }
+  .quick-search-item {
+    margin-left: 3rem;
+    width: 80% !important;
+    margin-bottom: 8px;
+  }
+  .header {
+    height: 90px !important;
+  }
+  .filter {
+    width: 82vw;
+    height: 130vh !important;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+  }
+  .searchResultFilterBox {
+    width: 83vw;
+    margin-left: 1.5rem;
+    height: 45vh;
+  }
+  .hrline {
+    width: 73vw;
+  }
+  .header__text {
+    font-size: 5vw;
+    margin-top: 3rem;
+  }
+  .resOverviewImg {
+    height: 100%;
+    width: 100%;
+  }
+  .marZero {
+    margin: 0 !important;
+  }
+  .marginLeft {
+    margin-left: 7rem !important;
+  }
+  .marginSearch {
+    margin-left: 2rem;
+  }
+  .box__section {
+    width: 43vw !important;
+    margin-left: 30px;
+    height: 20vh;
+  }
+  .box__section img {
+    width: 20vw;
+    height: 20vh;
+  }
+  .cuisine {
+    line-height: 30px;
+  }
+  .restOverviewImgContainer {
+    height: 50vh;
+    width: 83vw;
+  }
+  .resOverviewImg {
+    height: 100%;
+    width: 100%;
+  }
+  .marginContainer {
+    margin-left: 40px;
+  }
+  .resOverviewBtn {
+    top: 58%;
+    right: 10%;
+  }
+  .widthMod {
+    width: 120vw !important;
+    height: 70vh;
+  }
+  .orderDiv {
+    margin-left: rem;
+  }
+  .btnOrder {
+    margin-bottom: 1rem;
+    /* margin-left: 4rem !important; */
+  }
+  .testingZ {
+    position: absolute !important;
+    z-index: 100 !important;
+    width: 96%;
+  }
+  .ZIndex {
+    position: absolute !important;
+    z-index: 100 !important;
+    width: 90%;
+  }
+}
+/* ---------------------------------------------------------------- */
+/* MEDIA QUERIES FOR SMALL DEVICES */
+/* ---------------------------------------------------------------- */
+
+@media only screen and (max-width: 508px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+    color: var(--second-color);
+    font-size: 2.06rem;
+  }
+  .secondLogo {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  .login__div {
+    font-size: 1rem;
+  }
+  .image {
+    width: 120px;
+    height: 120px;
+  }
+  .btn-main {
+    margin-left: 30px;
+  }
+  .hrline {
+    width: 90vw;
+    margin-left: 1rem;
+  }
+  .quick-search-item {
+    width: auto;
+  }
+  .image-item {
+    width: 30vw;
+    height: 20vh;
+  }
+  .bg__image {
+    width: 96.5vw;
+    height: 80vh;
+    background-position-x: center;
+    background-position-y: initial;
+    background-size: 199%;
+  }
+  .heightLi {
+    height: 30vh !important;
+  }
+  .quick-search-item {
+    margin-left: 3rem;
+    width: 80% !important;
+    margin-bottom: 8px;
+  }
+  .header {
+    height: 83px !important;
+  }
+  .filter {
+    width: 82vw;
+    height: 123vh !important;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+  }
+  .searchResultFilterBox {
+    width: 83vw;
+    margin-left: 1.5rem;
+    height: 45vh;
+  }
+  .hrline {
+    width: 73vw;
+  }
+  .header__text {
+    font-size: 6vw;
+    margin-top: 3rem;
+  }
+  .resOverviewImg {
+    height: 100%;
+    width: 100%;
+  }
+  .marZero {
+    margin: 0 !important;
+  }
+  .marginLeft {
+    margin-left: 7rem !important;
+  }
+  .marginSearch {
+    margin-left: 2rem;
+  }
+  .box__section {
+    /* width: 80vw !important; */
+    margin-left: 30px;
+  }
+  .cuisine {
+    line-height: 30px;
+  }
+  .restOverviewImgContainer {
+    height: 40vh;
+    width: 70vw;
+  }
+  .resOverviewImg {
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .marginContainer {
+    margin-left: 40px;
+  }
+  .resOverviewBtn {
+    top: 48%;
+    right: 20%;
+  }
+  .widthMod {
+    width: 120vw !important;
+    height: 70vh;
+  }
+  .orderDiv {
+    margin-left: rem;
+  }
+  .btnOrder {
+    margin-bottom: 1rem;
+    /* margin-left: 4rem !important; */
+  }
+  .testingZ {
+    position: absolute !important;
+    z-index: 100 !important;
+    width: 93%;
+  }
+  .menu-img {
+    width: 28px !important;
+    height: 28px;
+  }
+}
